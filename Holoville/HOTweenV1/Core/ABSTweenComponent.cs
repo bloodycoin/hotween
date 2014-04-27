@@ -820,7 +820,7 @@ namespace Holoville.HOTween.Core
         {
             TweenDelegate.TweenCallbackWParms cb = HOTween.DoSendMessage;
             object[] cbParms = new[] {
-                p_sendMessageTarget,
+                (object)p_sendMessageTarget,
                 p_methodName,
                 p_value,
                 p_options
